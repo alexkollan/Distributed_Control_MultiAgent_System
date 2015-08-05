@@ -40,3 +40,5 @@ commit
 git add -A  {stages All}
 git add .   {stages new and modified, without deleted}
 git add -u  {stages modified and deleted, without new}
+
+git reset   {unstage the last commit}
