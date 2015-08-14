@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Antic+Slab);
+
+html,body {
+  height:100%;
+  background-color: #000000;
+  
+}
+
+h1 {
+  font-family: 'Antic Slab', serif;
+  font-size:80px;
+  color:#DDCCEE;
+}
+
+.lead {
+	color:#DDCCEE;
+}
+
+
+/* Custom container background-color:#003972;*/
+.container-full {
+
+  margin-left: auto ;
+  margin-right: auto ;
+  width: 100%;
+  min-height:25%;
+  
+  padding: px;
+  color:#eee;
+  overflow:hidden;
+  
+  
+  
+}
+
+.container-full a {
+    margin-left: auto ;
+  margin-right: auto ;
+  color:#efefef;
+  text-decoration:none;
+}
+
+.v-center {
+    margin-left: auto ;
+  margin-right: auto ;
+  margin-top:18%;
+}
+
+.cont{
+    margin-left: auto ;
+  margin-right: auto ;
+    margin: 0 auto;
+    width:100%;
+    min-height:100%;
+    
+    
+    
+}
+
+h1, .lead{
+    
+color: #CCD7E3;    
+    
+
+
+}
+
+
+
+.bg{
+    
+    
+-webkit-animation: aia2 5s linear infinite alternate;
+   -moz-animation: aia2 5s linear infinite alternate;
+    -ms-animation: aia2 5s linear infinite alternate;
+     -o-animation: aia2 5s linear infinite alternate;
+        animation: aia2 5s linear infinite alternate; /* this comes last */
+
+
+    position: absolute;
+    background-image: url("../img/acbg.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    
+    
+    animation-name: bganime;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    
+    
+}
+
+@keyframes bganime{
+    
+    0%{
+        -webkit-filter: blur(5px);
+      
+        -webkit-filter: sepia(20%);
+    }
+    
+    50%{
+        -webkit-filter: blur(5px);
+      
+        -webkit-filter: sepia(30%);    
+    }
+    100%{
+        -webkit-filter: blur(10px);
+      
+        -webkit-filter: sepia(50%);    
+    }
+    
+    
+}
