@@ -1,0 +1,4 @@
+copy all the code from an m file 
+and paste it in matlab
+and press enter
+you will see the simulations.
